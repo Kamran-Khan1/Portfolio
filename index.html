@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>My Portfolio</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero">
+        <div class="container">
+            <h2>Welcome to My Portfolio</h2>
+            <p>Discover my work and projects</p>
+            <a href="#projects" class="btn">View Projects</a>
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Hello! I'm a web developer with a passion for creating beautiful and functional websites. I have experience with HTML, CSS, JavaScript, and more.</p>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <div class="container">
+            <h2>My Projects</h2>
+            <div class="projects">
+                <div class="project">
+                    <h3>Project One</h3>
+                    <p>Description of project one.
+Project Title:
+E-commerce Website for Local Artisans
+
+Project Overview:
+This project involved developing a fully functional e-commerce platform aimed at helping local artisans sell their handmade products online. The website was designed to be user-friendly, visually appealing, and responsive across all devices.
+
+Technologies Used:
+Frontend: HTML, CSS, JavaScript, React.js
+Backend: Node.js, Express.js
+Database: MongoDB
+Other Tools: Git, Heroku, Stripe API for payments
+Challenges and Solutions:
+Challenge: Implementing a secure payment gateway that supports various payment methods.
+Solution: Integrated the Stripe API to handle payments securely and efficiently, ensuring compliance with industry standards.
+Challenge: Ensuring high performance and fast load times with a large product database.
+Solution: Optimized database queries and implemented lazy loading for images to enhance the performance.
+Features and Functionality:
+User Authentication: Secure login and registration system using JWT.
+Product Management: Admin panel for adding, updating, and deleting products, including bulk upload functionality.
+Shopping Cart and Checkout: Dynamic shopping cart with real-time updates, integrated with the Stripe API for seamless payment processing.
+Search and Filter: Advanced search functionality with filters for categories, price range, and ratings.
+Responsive Design: Fully responsive layout ensuring a seamless experience on desktops, tablets, and smartphones.
+Reviews and Ratings: User-generated reviews and ratings for products, with moderation capabilities for admins.
+Role and Contributions:
+Designed and developed the frontend using React.js, ensuring a responsive and intuitive user interface.
+Implemented the backend with Node.js and Express.js, creating RESTful APIs for various functionalities.
+Set up and managed the MongoDB database, including schema design and indexing for performance.
+Integrated third-party services like Stripe for payment processing and Heroku for deployment.
+Conducted thorough testing and debugging to ensure a smooth user experience and secure transactions.
+Outcome and Impact:
+The project successfully launched and received positive feedback from both artisans and customers. Key metrics included a 20% increase in sales for artisans within the first three months and a high user satisfaction rate, as evidenced by customer feedback surveys.</p>
+                </div>
+                <div class="project">
+                    <h3>Project Two</h3>
+                    <p>Description of project two.
+Project Title:
+Personal Finance Management App
+
+Project Overview:
+This project involved creating a personal finance management application to help users track their income, expenses, and savings goals. The app provides users with insightful analytics, budgeting tools, and financial advice to promote better money management habits.
+
+Technologies Used:
+Frontend: HTML, CSS, JavaScript, Vue.js
+Backend: Python, Flask
+Database: PostgreSQL
+Other Tools: Docker, AWS for hosting, Chart.js for data visualization
+Challenges and Solutions:
+Challenge: Ensuring data security and privacy for users' financial information.
+Solution: Implemented robust authentication and authorization mechanisms using OAuth2 and encrypted sensitive data both in transit and at rest.
+Challenge: Creating dynamic and interactive financial charts and graphs.
+Solution: Utilized Chart.js to create customizable and interactive visualizations, providing real-time updates based on user input.
+Features and Functionality:
+User Authentication: Secure user registration and login system with OAuth2 integration.
+Dashboard: An intuitive dashboard that provides an overview of the user's financial status, including income, expenses, and savings.
+Expense Tracking: Users can categorize and track their expenses with custom categories and tags.
+Budgeting Tools: Budget planning features that allow users to set and monitor their spending limits.
+Savings Goals: Tools for setting and tracking savings goals, with progress visualizations.
+Financial Analytics: Detailed reports and analytics, including pie charts, bar graphs, and line charts, to help users understand their spending habits.
+Responsive Design: Mobile-first design approach ensuring a seamless experience on all devices.
+Role and Contributions:
+Developed the frontend using Vue.js, creating a responsive and interactive user interface.
+Built the backend with Flask, designing RESTful APIs to handle user data and interactions securely.
+Set up and managed the PostgreSQL database, ensuring efficient data storage and retrieval.
+Deployed the application using Docker for containerization and AWS for hosting, ensuring scalability and reliability.
+Integrated Chart.js for dynamic and interactive data visualizations, enhancing user engagement.
+Conducted extensive testing, including unit tests and user acceptance testing, to ensure the app's functionality and usability.
+Outcome and Impact:
+The Personal Finance Management App was successfully launched and has helped over 1,000 users gain better control over their finances. User feedback highlighted the app's intuitive design and powerful analytics as key strengths. The app received an average rating of 4.8 stars in user reviews and was featured in several finance-related blogs and online publications.</p>
+                </div>
+                <div class="project">
+                    <h3>Project Three</h3>
+                    <p>Description of project three.
+Project Title:
+Online Learning Platform
+
+Project Overview:
+This project involved developing an online learning platform designed to provide users with access to various courses, tutorials, and educational resources. The platform supports video lessons, quizzes, and interactive forums, aiming to create a comprehensive and engaging learning experience.
+
+Technologies Used:
+Frontend: HTML, CSS, JavaScript, Angular
+Backend: Node.js, Express.js
+Database: MySQL
+Other Tools: AWS for hosting and storage, WebSocket for real-time communication, JWT for authentication
+Challenges and Solutions:
+Challenge: Implementing a scalable video streaming solution for course content.
+Solution: Utilized AWS S3 for storing video files and AWS CloudFront for content delivery, ensuring high availability and performance.
+Challenge: Providing real-time updates and interactions in forums and during live classes.
+Solution: Integrated WebSocket for real-time communication, enabling instant updates and interactions between users and instructors.
+Features and Functionality:
+User Authentication: Secure login and registration using JWT, with role-based access control for students, instructors, and admins.
+Course Management: Instructors can create and manage courses, upload video lessons, and add supplementary materials.
+Interactive Quizzes: Integrated quiz system with instant feedback to help reinforce learning.
+Discussion Forums: Forums for each course where students can ask questions, share insights, and engage with instructors and peers.
+Live Classes: Support for live streaming classes with real-time interaction via chat and Q&A sessions.
+Progress Tracking: Dashboard for students to track their progress, view completed courses, and access certificates.
+Responsive Design: Fully responsive design ensuring accessibility across desktops, tablets, and smartphones.
+Role and Contributions:
+Designed and developed the frontend using Angular, focusing on creating a responsive and user-friendly interface.
+Built the backend with Node.js and Express.js, developing RESTful APIs to handle course data, user authentication, and interactions.
+Implemented MySQL for data storage, designing an efficient database schema to manage users, courses, and interactions.
+Deployed the platform using AWS, leveraging services like EC2 for hosting, S3 for storage, and CloudFront for content delivery.
+Integrated WebSocket to enable real-time features like live class interactions and instant forum updates.
+Conducted comprehensive testing, including performance testing and security audits, to ensure a robust and secure platform.
+Outcome and Impact:
+The Online Learning Platform was successfully launched and has attracted over 5,000 users within the first six months. The platform has received positive feedback for its ease of use, comprehensive course offerings, and interactive features. Key metrics include a high user retention rate and positive reviews from both students and instructors. The platform has been praised for its effective learning tools and community engagement.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p>Feel free to reach out to me via email at <a href="mailto:example@example.com">kamrangpai@gmail.com</a>.</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 My Portfolio. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
